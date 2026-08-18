@@ -1,0 +1,35 @@
+# ── Binary tools ──
+ffmpeg-master-latest-win64-gpl/
+
+# ── Third-party reference repos (local Skills, not project code) ──
+Skills/
+
+# ── Large video assets (100MB+, use git-lfs or external storage) ──
+背景/
+
+# ── Debug / temp screenshots at root ──
+_debug_*.png
+_debug_*.jpg
+_cabin_*.png
+_cabin_*.jpg
+
+# ── PersonalWeb temp/debug output ──
+PersonalWeb/.tmp/
+PersonalWeb/.shots/
+
+# ── Dependencies ──
+node_modules/
+
+# ── Build output ──
+dist/
+PersonalWeb/dist/
+
+# ── IDE-generated artifacts ──
+.trae-html-share-packages/
+.preflight/
+
+# ── OS / editor ──
+.DS_Store
+*.local
+*.log
+.vite/
